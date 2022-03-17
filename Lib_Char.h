@@ -230,23 +230,6 @@
 		return answer;
 	}
 
-
-	
-
-	
-
-
-
-	
-
-
-
-
-
-
-
-
-
 	char char_strLen(char *str)
 	{
 		char len = 0;
@@ -260,5 +243,12 @@
 	void printString(char*str)
 	{
 		while(*str) putchar(*str++);
+	}
+	
+	char strLen(char*str)
+	{
+		char len;
+		while(*str++) len++;
+		return len;
 	}
 
